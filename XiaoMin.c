@@ -1,11 +1,8 @@
 #include <stdio.h>
+#define POCKETMONEY 10 //定义常量及常量值
 int main()
 {
-    int age = 18;
-    float height = 1.85;
-    char unit = 'm';
-    printf("小明今年%d岁\n", age);
-    printf("小明身高%f%c\n", height, unit);
-    printf("小明现在在慕课网上学习IT技术\n");
+    //POCKETMONEY = 12;  小明私自增加零花钱对吗？
+    printf("小明今天又得到%d元零花钱\n", POCKETMONEY);
     return 0;
 }
